@@ -3,7 +3,7 @@ module Account
     attr_reader :user
 
     def initialize(email:, password:)
-      @email = email
+      @email = email.downcase.strip
       @password = password
     end
 
