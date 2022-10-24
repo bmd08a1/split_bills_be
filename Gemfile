@@ -7,6 +7,7 @@ ruby "2.7.6"
 gem "rails", "~> 7.0.3", ">= 7.0.3.1"
 gem 'pg'
 gem "puma", "~> 5.0"
+gem 'grape'
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
